@@ -1,9 +1,10 @@
-/* Universal kod*/
+/*! Universal kod*/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   color: white;
+  font-family: "Gothic A1", sans-serif;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap");
@@ -11,8 +12,8 @@
 body {
   background-color: #20252b;
 }
-
-hr {
+/*! Huvud Rubriken */
+.top {
   background-color: #296ff2;
   height: 5px;
   width: 25%;
@@ -20,7 +21,6 @@ hr {
 }
 
 h1 {
-  font-family: "Gothic A1", sans-serif;
   font-size: 20px;
 }
 
@@ -33,4 +33,52 @@ h1 {
 .biljett p {
   text-align: center;
   font-family: "Gothic A1", sans-serif;
+}
+
+/*! innehåll under rubrikerna */
+
+hr {
+  border: 1px solid #43484e;
+}
+
+p {
+  color: rgb(199, 195, 195);
+}
+
+.hr2 {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.plus-text {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.u-1 {
+  padding: 0 10px;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+.u-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+  padding-left: 1px;
+}
+
+.appbiljetter {
+  padding-left: 10px;
+}
+/*! Footer */
+figure {
+  display: flex;
+  justify-content: space-evenly;
+}
+figure img {
+  padding: 5%;
 }
