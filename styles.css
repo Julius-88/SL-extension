@@ -5,13 +5,11 @@
   box-sizing: border-box;
   color: white;
   font-family: "Gothic A1", sans-serif;
+  background-color: #20252b;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200&display=swap");
 
-body {
-  background-color: #20252b;
-}
 /*! Huvud Rubriken */
 .top {
   background-color: #296ff2;
@@ -33,6 +31,7 @@ h1 {
 .biljett p {
   text-align: center;
   font-family: "Gothic A1", sans-serif;
+  background-color: #12151a;
 }
 
 /*! innehåll under rubrikerna */
@@ -43,6 +42,10 @@ hr {
 
 p {
   color: rgb(199, 195, 195);
+}
+
+a {
+  text-decoration: none;
 }
 
 .hr2 {
@@ -69,6 +72,7 @@ h4 {
   padding: 10px;
   margin: 10px;
   padding-left: 1px;
+  align-items: center;
 }
 
 .appbiljetter {

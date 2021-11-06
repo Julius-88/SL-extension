@@ -1,0 +1,68 @@
+/* Toppen av sidan */
+.top1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4% 0;
+}
+
+/** text i mitten  */
+
+.content {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4%;
+}
+
+@media screen and (min-width: 320px) {
+  .content {
+    font-size: 12px;
+  }
+}
+
+.ticket {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  column-gap: 3px;
+}
+
+.mini-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #2970f0;
+  padding: 25%;
+  border-radius: 8px;
+  width: 30px;
+  height: 10px;
+  border: none;
+  font-size: 200%;
+}
+
+.button {
+  padding: 4%;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #2970f0;
+  outline-style: none;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+}
+.button a {
+  background-color: #2970f0;
+  font-size: larger;
+}
+
+.bottom-line {
+  margin-top: 82%;
+}
+
+.bottom-pics {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
