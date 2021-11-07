@@ -22,6 +22,31 @@ h1 {
   font-size: 20px;
 }
 
+.bakåt-knapp {
+  display: flex;
+  align-items: center;
+}
+
+.bakgrundsbild {
+  position: relative;
+}
+.svart-cykel {
+  position: absolute;
+  top: 430px;
+  right: 37px;
+  border-radius: 16px;
+}
+
+.info {
+  padding: 10%;
+  background-color: #4c5157;
+}
+
+.top-icon {
+  position: absolute;
+  top: 570px;
+}
+
 .biljett {
   background-color: #12151a;
   border-radius: 10px;

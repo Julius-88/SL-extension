@@ -1,0 +1,26 @@
+.button {
+  padding: 4%;
+  width: 90%;
+  margin-bottom: 60px;
+  background-color: #2970f0;
+  outline-style: none;
+  text-align: center;
+  border-radius: 8px;
+  border: none;
+}
+.button a {
+  background-color: #2970f0;
+  font-size: larger;
+}
+
+.info {
+  padding: 10%;
+  background-color: #4c5157;
+}
+
+.grön-cykel {
+  position: absolute;
+  top: 430px;
+  right: 37px;
+  border-radius: 16px;
+}
