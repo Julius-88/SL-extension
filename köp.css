@@ -22,9 +22,7 @@
 
 .ticket {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  column-gap: 3px;
+  align-items: center;
 }
 
 .mini-button {
@@ -37,7 +35,12 @@
   width: 30px;
   height: 10px;
   border: none;
-  font-size: 200%;
+  margin: 0;
+  font-size: 30px;
+}
+
+.number {
+  padding: 3px;
 }
 
 .button {
