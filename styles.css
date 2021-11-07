@@ -34,6 +34,50 @@ h1 {
   background-color: #12151a;
 }
 
+.biljett-köpt {
+  background-color: #167e50;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.biljett-köpt p {
+  background-color: #167e50;
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 700;
+}
+
+.biljett-köpt figure {
+  background-color: #167e50;
+}
+
+.biljett-köpt figcaption {
+  background-color: #167e50;
+  font-family: "Gothic A1", sans-serif;
+}
+
+.biljett-köpt img {
+  background-color: #167e50;
+}
+
+.siffror {
+  font-size: xxx-large;
+  margin-left: 5%;
+  margin-bottom: 3%;
+}
+
+.content {
+  margin-left: 5%;
+}
+
+.bottom-ticket {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #167e50;
+  margin-top: 10%;
+}
+
 /*! innehåll under rubrikerna */
 
 hr {
@@ -85,4 +129,10 @@ figure {
 }
 figure img {
   padding: 5%;
+}
+
+.bottom-pics {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
