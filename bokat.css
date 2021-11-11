@@ -14,6 +14,11 @@
   font-weight: 700;
 }
 
+.bakåt-knapp {
+  display: flex;
+  align-items: center;
+}
+
 .button {
   padding: 4%;
   width: 90%;
@@ -23,6 +28,7 @@
   text-align: center;
   border-radius: 8px;
   border: none;
+  margin-left: 15px;
 }
 .button a {
   background-color: #cd0b0b;
@@ -33,9 +39,102 @@
   position: absolute;
   top: 600px;
   background-color: #4c5157;
+  align-items: center;
+  width: 100%;
 }
 
 .top-icon2 {
   position: absolute;
-  top: 570px;
+  top: 575px;
+  width: 100%;
+  align-items: center;
+}
+
+.bottom-pics3 {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+@media screen and (min-width: 375px) {
+  .siffror {
+    margin-left: 60px;
+  }
+}
+@media screen and (min-width: 425px) {
+  .siffror {
+    margin-left: 80px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .siffror {
+    margin-left: 20%;
+  }
+
+  .top-icon2 {
+    top: 486px;
+    z-index: 1;
+  }
+
+  .info-2 {
+    display: flex;
+    flex-direction: column;
+    top: 550px;
+  }
+
+  .button {
+    border-radius: 30px;
+  }
+
+  .cykel-bokat {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .siffror {
+    margin-left: 30%;
+  }
+
+  .top-icon2 {
+    top: 686px;
+    z-index: 1;
+  }
+
+  .info-2 {
+    display: flex;
+    flex-direction: column;
+    top: 770px;
+  }
+
+  .button {
+    border-radius: 30px;
+  }
+
+  .cykel-bokat {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .siffror {
+    margin-left: 35%;
+  }
+
+  .top-icon2 {
+    top: 655px;
+    z-index: 1;
+  }
+
+  .info-2 {
+    display: flex;
+    flex-direction: column;
+    top: 770px;
+  }
+
+  .button {
+    border-radius: 30px;
+  }
+
+  .cykel-bokat {
+    width: 100%;
+  }
 }
