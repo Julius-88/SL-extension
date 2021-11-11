@@ -1,3 +1,16 @@
+.biljett-köpt {
+  background-color: #167e50;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.biljett-köpt p {
+  background-color: #167e50;
+  font-family: "Gothic A1", sans-serif;
+  font-weight: 700;
+}
+
 .appbiljetter3 {
   padding-left: 10px;
 }
@@ -6,4 +19,44 @@
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+.bottom-line2 {
+  margin-top: 33%;
+}
+
+@media screen and (min-width: 375px) {
+  .bottom-line2 {
+    margin-top: 25%;
+  }
+}
+@media screen and (min-width: 425px) {
+  .bottom-line2 {
+    margin-top: 19%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .bottom-line2 {
+    margin-top: 0.4%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bottom-line2 {
+    margin-top: 20%;
+  }
+  p {
+    background-color: ;
+  }
+  .content {
+    background-color: #167e50;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bottom-line2 {
+    margin-top: 16%;
+  }
+  * {
+    font-size: large;
+  }
 }

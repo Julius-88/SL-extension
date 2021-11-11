@@ -19,31 +19,6 @@ h1 {
   font-size: 20px;
 }
 
-.bakåt-knapp {
-  display: flex;
-  align-items: center;
-}
-
-.bakgrundsbild {
-  position: relative;
-}
-.svart-cykel {
-  position: absolute;
-  top: 430px;
-  right: 37px;
-  border-radius: 16px;
-}
-
-.info {
-  padding: 10%;
-  background-color: #4c5157;
-}
-
-.top-icon {
-  position: absolute;
-  top: 570px;
-}
-
 .biljett {
   background-color: #12151a;
   border-radius: 10px;
@@ -54,19 +29,6 @@ h1 {
   text-align: center;
   font-family: "Gothic A1", sans-serif;
   background-color: #12151a;
-}
-
-.biljett-köpt {
-  background-color: #167e50;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  border-radius: 10px;
-}
-
-.biljett-köpt p {
-  background-color: #167e50;
-  font-family: "Gothic A1", sans-serif;
-  font-weight: 700;
 }
 
 .biljett-köpt figure {
@@ -163,5 +125,53 @@ figure img {
   width: 100%;
 }
 
-@media screen {
+@media screen and (min-width: 768px) {
+  .bottom-pics {
+    bottom: 10;
+    position: absolute;
+  }
+  .bottom-line1 {
+    margin-top: 28%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bottom-line1 {
+    margin-top: 22%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bottom-line1 {
+    margin-top: 13%;
+  }
+  * {
+    font-size: larger;
+  }
+  .bottom-pics {
+    bottom: 10;
+    position: absolute;
+    height: 250px;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .bottom-line1 {
+    margin-top: 40%;
+  }
+
+  * {
+    font-size: xxx-large;
+  }
+
+  .plus-img {
+    height: 70px;
+  }
+
+  img {
+    height: 500px;
+  }
+
+  .bottom-pics {
+    bottom: 10;
+    position: absolute;
+  }
 }
