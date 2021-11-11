@@ -24,3 +24,67 @@
   right: 37px;
   border-radius: 16px;
 }
+
+@media screen and (min-width: 375px) {
+  .grön-cykel {
+    right: 92px;
+    top: 429px;
+  }
+}
+@media screen and (min-width: 425px) {
+  .grön-cykel {
+    right: 107px;
+    top: 480px;
+    height: 36px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .grön-cykel {
+    right: 130px;
+    top: 200px;
+    height: 70px;
+    border-radius: 40px;
+  }
+
+  .info {
+    padding: 9%;
+    background-color: #4c5157;
+  }
+
+  .button {
+    padding: 10px;
+    align-items: center;
+  }
+
+  .bottom-pics1 {
+    bottom: 10;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grön-cykel {
+    right: 107px;
+    top: 480px;
+    height: 90px;
+    border-radius: 60px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .grön-cykel {
+    right: 130px;
+    top: 200px;
+    height: 120px;
+    border-radius: 60px;
+  }
+
+  .info {
+    padding: 5%;
+    background-color: #4c5157;
+  }
+
+  .button {
+    padding: 10px;
+    align-items: center;
+  }
+}
