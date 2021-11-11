@@ -165,7 +165,8 @@ figure img {
 
 @media screen and (min-width: 768px) {
   .bottom-pics {
-    bottom: 0;
+    bottom: 10;
+    position: absolute;
   }
   .bottom-line1 {
     margin-top: 28%;
@@ -185,8 +186,9 @@ figure img {
     font-size: larger;
   }
   .bottom-pics {
-    bottom: 0;
+    bottom: 10;
     position: absolute;
+    height: 250px;
   }
 }
 @media screen and (min-width: 2560px) {
@@ -207,7 +209,7 @@ figure img {
   }
 
   .bottom-pics {
-    bottom: 0;
+    bottom: 10;
     position: absolute;
   }
 }
