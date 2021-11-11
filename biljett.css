@@ -7,3 +7,13 @@
   bottom: 0;
   width: 100%;
 }
+
+.bottom-line2 {
+  margin-top: 35%;
+}
+
+@media screen and (min-width: 375px) {
+  .bottom-line2 {
+    margin-top: 25%;
+  }
+}

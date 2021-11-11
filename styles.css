@@ -163,5 +163,51 @@ figure img {
   width: 100%;
 }
 
-@media screen {
+@media screen and (min-width: 768px) {
+  .bottom-pics {
+    bottom: 0;
+  }
+  .bottom-line1 {
+    margin-top: 28%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bottom-line1 {
+    margin-top: 22%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bottom-line1 {
+    margin-top: 13%;
+  }
+  * {
+    font-size: larger;
+  }
+  .bottom-pics {
+    bottom: 0;
+    position: absolute;
+  }
+}
+@media screen and (min-width: 2560px) {
+  .bottom-line1 {
+    margin-top: 40%;
+  }
+
+  * {
+    font-size: xxx-large;
+  }
+
+  .plus-img {
+    height: 70px;
+  }
+
+  img {
+    height: 500px;
+  }
+
+  .bottom-pics {
+    bottom: 0;
+    position: absolute;
+  }
 }
