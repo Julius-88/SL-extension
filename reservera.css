@@ -1,0 +1,163 @@
+.bakåt-knapp {
+  display: flex;
+  align-items: center;
+}
+
+.bottom-pics1 {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.info {
+  padding: 10%;
+  background-color: #4c5157;
+}
+
+.map-background-section {
+  background-image: url("/bilder/reservera.JPG");
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 320px;
+}
+
+.svart-cykel {
+  position: absolute;
+  left: 250px;
+  top: 429px;
+  border-radius: 16px;
+}
+
+.top-icon {
+  position: absolute;
+  width: 320px;
+  top: 515px;
+}
+
+@media screen and (min-width: 375px) {
+  .map-background-section {
+    background-image: url("/bilder/reservera.JPG");
+    background-repeat: no-repeat;
+    height: 60vh;
+    width: 375px;
+  }
+  .top-icon {
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .map-background-section {
+    background-image: url("/bilder/reservera.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 425px;
+  }
+
+  .svart-cykel {
+    position: absolute;
+    left: 285px;
+    top: 480px;
+    border-radius: 16px;
+  }
+
+  .top-icon {
+    width: 425px;
+  }
+
+  .info {
+    padding: 10%;
+    background-color: #4c5157;
+    width: 425px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .map-background-section {
+    background-image: url("/bilder/reservera.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 768px;
+  }
+
+  .svart-cykel {
+    position: absolute;
+    left: 250px;
+    top: 229px;
+    border-radius: 60px;
+    padding: 10px;
+    height: 70px;
+  }
+
+  .top-icon {
+    width: 768px;
+  }
+
+  .info {
+    padding: 10%;
+    background-color: #4c5157;
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .map-background-section {
+    background-image: url("/bilder/reservera.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1024px;
+  }
+
+  .svart-cykel {
+    position: absolute;
+    left: 250px;
+    top: 229px;
+    border-radius: 60px;
+    padding: 10px;
+    height: 90px;
+  }
+
+  .top-icon {
+    width: 1024px;
+    top: 650px;
+  }
+
+  .info {
+    padding: 10%;
+    background-color: #4c5157;
+    width: 1024px;
+    font-size: large;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .map-background-section {
+    background-image: url("/bilder/reservera.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1440px;
+  }
+
+  .svart-cykel {
+    position: absolute;
+    left: 250px;
+    top: 229px;
+    border-radius: 60px;
+    padding: 10px;
+    height: 130px;
+  }
+
+  .top-icon {
+    width: 1440px;
+    top: 700px;
+  }
+
+  .info {
+    padding: 10%;
+    background-color: #4c5157;
+    width: 1440px;
+    font-size: larger;
+    text-align: center;
+  }
+}
