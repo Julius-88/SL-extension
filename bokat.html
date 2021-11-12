@@ -8,6 +8,7 @@
     <meta name="description" content="Köp dina SL biljetter här, Buy your SL tickets here.">
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="/bokat.css" />
+    <link rel="stylesheet" href="/module.css" />
     <title>Bokat cykel - SL, SL - Biljett</title>
   </head>
   <body>
@@ -33,12 +34,21 @@
     <section>
       <p class="info-2">
         Cykel Info: Skeppsbron 64 111 30 Stockholm Cykel-ID: 5
-        <button class="button">
-          <a href="/avsluta.html">Avsluta</a>
+        <button data-modal-target="#modal" class="button">
+          Avsluta
         </button>
       </p>
+      
     </section>
-
+<div class="modal" id="modal">
+        <a href="/avsluta.html">
+          <div class="modal-body">
+            <button class="close-button">&times;</button>
+            Tack för att du är med och bidrar till ett bättre klimat och skapar
+            den hållbara framtiden.
+          </div>
+        </a>
+      </div>
     <footer>
       <figure class="bottom-pics3">
         <img

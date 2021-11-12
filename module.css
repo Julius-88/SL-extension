@@ -1,0 +1,30 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  color: #c7c9cb;
+  width: 500px;
+  max-width: 80%;
+  padding: 10%;
+  border: none;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.close-button {
+  outline: none;
+  border: none;
+  background: none;
+  margin-left: 100%;
+}
